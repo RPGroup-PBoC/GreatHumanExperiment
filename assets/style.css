@@ -1,0 +1,29 @@
+.layout {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 700px);
+  gap: 3rem;
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+
+nav {
+  position: sticky;
+  top: 2rem;
+  align-self: start;
+}
+
+nav a {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 700px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  nav {
+    position: static;
+  }
+}

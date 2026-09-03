@@ -3,7 +3,7 @@ email: ""
 description: >-
   A Caltech course using data, computation, and first-principles reasoning
   to measure the planetary transformations driven by humans.
-baseurl: ""
+baseurl: "/"
 url: ""
 
 markdown: kramdown
